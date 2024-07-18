@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang = "en" >
+<head >
+    <meta charset = "UTF-8" >
+    <meta name = "viewport"
+          content = "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge" >
+    <title >Portfolio</title >
+    <link rel = "stylesheet" href = "/cssFiles/style.css" >
+    <link rel = "stylesheet" href = "/cssFiles/mediaqueries.css" >
+</head >
+<body >
+<!--DESKTOP HEADER-->
+<nav id = "desktop-nav" >
+
+    <div class = "logo" >ALI UL HAQ</div >
+
+    <div >
+        <ul class = "nav-links" >
+            <li ><a href = "#about" >About</a ></li >
+            <li ><a href = "#experience" >Experience</a ></li >
+            <li ><a href = "#projects" >Projects</a ></li >
+            <li ><a href = "#contact" >Contact</a ></li >
+        </ul >
+    </div >
+
+</nav >
+
+<!--MOBILE RESPONSIVE MENU-->
+<nav id = "hamburger-nav" >
+    <div class = "logo" >ALI UL HAQ</div >
+    <div class = "hamburger-menu" >
+        <div class = "hamburger-icon" onclick = "togglemenu()" >
+            <span ></span >
+            <span ></span >
+            <span ></span >
+        </div >
+        <div class = "menu-links" >
+            <li ><a href = "#about" onclick = "togglemenu()" >About</a ></li >
+            <li ><a href = "#experience" onclick = "togglemenu()" >Experience</a ></li >
+            <li ><a href = "#project" onclick = "togglemenu()" >Projects</a ></li >
+            <li ><a href = "#contact" onclick = "togglemenu()" >Contact</a ></li >
+        </div >
+
+    </div >
+</nav >
+<!--PROFILE SECTION -->
+<section id = "profile" >
+    <div class = "section_pic-container" >
+        <img src = "/assets/profilepic.png" alt = "profilepicture" >
+    </div >
+
+    <div class = "section__text" >
+        <p class = "section__text__p1" >Hello I'm</p >
+        <h1 class = "title" >ALI UL HAQ</h1 >
+        <p class = "section__text__p2" >Frontend Developer</p >
+
+
+        <div class = "btn-container" >
+            <button class = "btn btn-color-2" onclick = "window.open('./Assets/Resume.pdf')" >Download CV</button >
+            <button class = "btn btn-color-1" onclick = "location.href = './#contact'" >Contact</button >
+        </div >
+
+        <div id = "socials-container" >
+            <img src = "/assets/linkedin.png" alt = "linkedin profile" class = "icon"
+                 onclick = "location.href = 'https://www.linkedin.com/in/mraliulhaq/'" >
+            <img src = "/assets/github.png" alt = "github" class = "icon"
+                 onclick = "location.href = 'https://github.com/AliulhaQ07'" >
+        </div >
+
+    </div >
+</section >
+
+<!--ABOUT SECTION-->
+<section id = "about" >
+    <p class = "section__text__p1" >Get To Know More</p >
+    <h1 class = "title" >About Me</h1 >
+
+    <div class = "section-container" >
+
+        <div class = "section_pic-container" >
+            <img src = "assets/profilepic.png" alt = "profilepic" class = "about-pic" >
+        </div >
+
+        <div class = "about-details-container" >
+            <div class = "about-containers" >
+
+                <div class = "details-container" >
+                    <img src = "assets/quality.png" alt = "" class = "icon" >
+                    <h3 >Experience</h3 >
+                    <p >1 year <br /> Frontend Development</p >
+                </div >
+
+                <div class = "details-container" >
+                    <img src = "assets/graduation-cap.png" alt = "" class = "icon" >
+                    <h3 >Education</h3 >
+                    <p >B.Sc. COMPUTER SCIENCES </p >
+                </div >
+            </div >
+
+            <div class = "text-container" >
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aperiam atque commodi corporis distinctio eos eveniet facilis illo iusto mollitia nam nulla
+                    obcaecati quos reprehenderit sapiente, sint, suscipit velit veritatis, voluptatibus?</p >
+            </div >
+        </div >
+    </div >
+
+    <img src = "/assets/arrow.png" alt = "down arrow" class = " icon arrow"
+         onclick = "location.href = './experience' " >
+</section >
+
+<!--EXPERIENCE-->
+<section id = "experience" >
+    <p class = "section__text__p1" >Explore My</p >
+    <h1 class = "title" >Experience</h1 >
+    <div class = "experience-details-container" >
+        <div class = "about-containers" >
+            <div class = "details-container" >
+                <h2 class = "experience-sub-title" >Frontend Development</h2 >
+                <div class = "article-container" >
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >HTML</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >CSS</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >JS</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >BOOTS-5</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >DJANGO</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >MYSQL</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+                </div >
+            </div >
+            <div class = "details-container" >
+                <h2 class = "experience-sub-title" >Frontend Development</h2 >
+                <div class = "article-container" >
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >HTML</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >CSS</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >JAVASCRIPT</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+
+                    <article >
+                        <img src = "assets/verify.png" alt = "Exp icon" class = "icon" >
+                        <div >
+                            <h3 >BOOTSTRAP-5</h3 >
+                            <p >Experienced</p >
+                        </div >
+                    </article >
+
+                </div >
+            </div >
+        </div >
+    </div >
+
+    <img src = "/assets/arrow.png" alt = "down arrow" class = " icon arrow"
+         onclick = "location.href = './projects' " >
+</section >
+
+<!--PROJECTS-->
+<section id = "projects" >
+    <p class = "section__text__p1" >Browse My Recent </p >
+    <h1 class = "title" >Projects</h1 >
+    <div class = "experience-details-container" >
+        <div class = "about-containers" >
+            <div class = "details-container color-container" >
+                <div class = "article-container" >
+                    <img src = "assets/talaria.png" alt = "p1" class = "project-img" >
+                </div >
+                <h2 class = "experience-sub-title project-title" >Project One</h2 >
+
+                <div class = "btn-container" >
+                    <button class = "btn btn-color-2 project-btn" onclick = "location.href = '#'" >Github</button >
+                    <button class = "btn btn-color-2 project-btn" onclick = "location.href = '#'" >Live Demo</button >
+                </div >
+
+            </div >
+            <div class = "details-container color-container" >
+                <div class = "article-container" >
+                    <img src = "assets/talaria.png" alt = "p1" class = "project-img" >
+                </div >
+                <h2 class = "experience-sub-title project-title" >Project Two</h2 >
+
+                <div class = "btn-container" >
+                    <button class = "btn btn-color-2 project-btn" onclick = "location.href = '#'" >Github</button >
+                    <button class = "btn btn-color-2 project-btn" onclick = "location.href = '#'" >Live Demo</button >
+                </div >
+
+            </div >
+            <div class = "details-container color-container" >
+                <div class = "article-container" >
+                    <img src = "assets/talaria.png" alt = "p1" class = "project-img" >
+                </div >
+                <h2 class = "experience-sub-title project-title" >Project Three</h2 >
+
+                <div class = "btn-container" >
+                    <button class = "btn btn-color-2 project-btn" onclick = "location.href = '#'" >Github</button >
+                    <button class = "btn btn-color-2 project-btn" onclick = "location.href = '#'" >Live Demo</button >
+                </div >
+
+            </div >
+        </div >
+    </div >
+    <img src = "/assets/arrow.png" alt = "down arrow" class = " icon arrow"
+         onclick = "location.href = './projects' " >
+</section >
+
+<!--CONTACT-->
+<section id = "contact" >
+    <p class = "section__text__p1" >Get in Touch</p >
+    <h1 class = "title" >Contact Me</h1 >
+    <div class = "contact-info-upper-container" >
+        <div class = "contact-info-container" >
+            <img src = "assets/email.png" alt = "mail png" class = "icon contact-icon" >
+            <p ><a href = "mailto:mr.aliulhaq0711@gmail.com" target = "_blank" >mr.aliulhaq0711@gmail.com</a ></p >
+        </div >
+
+
+        <div class = "contact-info-container" >
+            <img src = "assets/linkedin.png" alt = "linkedin png" class = "icon contact-icon" >
+            <p ><a href = "https://www.linkedin.com/in/mraliulhaq/" target = "_blank" >LinkedIn</a ></p >
+        </div >
+    </div >
+</section >
+
+<!--FOOTER-->
+<footer >
+    <nav >
+        <div class = "nav-links-container" >
+            <ul class = "nav-links" >
+                <li ><a href = "#about" >About</a ></li >
+                <li ><a href = "#experience" >Experience</a ></li >
+                <li ><a href = "#projects" >Projects</a ></li >
+                <li ><a href = "#contact" >Contact</a ></li >
+            </ul >
+        </div >
+    </nav >
+    <p>Copyright &#169; 2024 AR'TECH. All Rights Reserved.</p>
+</footer >
+
+
+<script src = "javaScript/main.js" ></script >
+</body >
+</html >
